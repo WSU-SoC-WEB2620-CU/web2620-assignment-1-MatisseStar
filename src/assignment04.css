@@ -1,0 +1,171 @@
+html{
+    box-sizing: border-box;
+}                                               
+
+
+.top-section > .navbar {
+    width: 100%;
+    background-color:cornflowerblue;
+    margin:0;
+    padding:10px;
+}
+
+.top-section > .navbar > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.top-section > .navbar > ul > li > a{
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.body {
+    text-align: center;
+    background-color: lightgrey;
+    color:rgb(86, 85, 85);
+    margin-top: 0;
+    padding: 10px;
+}
+
+.jumboButton {
+    background-color:  rgb(110, 110, 229);
+    padding: 10px;
+    border: none;
+    color:white;
+    width: 25%;
+}
+
+.ribbon {
+    text-align: center;
+}
+
+.newestProducts {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+
+.newestProducts > .newProduct {
+    margin: 20px;
+    text-align: center;
+}
+
+.content > img{
+    width: 150px;
+    height: 180px;
+}
+
+button {
+    background-color: rgb(110, 110, 229);
+    padding: 10px;
+    border: none;
+    color:white;
+    width: 100%;
+}
+
+.special {
+    background-color: rgb(220, 241, 249);
+    height: 75px;
+    padding-top: 5px;
+}
+
+.greatProducts {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+h4{
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 5px;
+}
+
+.greatProducts > .greatProduct{
+    margin: 10px;
+    text-align: center;  
+}
+
+.greatContent > img{
+    width: 140px;
+    height: 220px;
+}
+
+.topProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.topProducts > .topProduct {
+    margin: 10px;
+    font-size: 10px;
+}
+
+.topProduct1 > img {
+    width: 120px;
+    height: 150px;
+
+}
+
+.topProduct2 > img {
+    width: 120px;
+    height: 150px;
+}
+
+ .topProduct3 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+ .topProduct4 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+ .topProduct5  > img {
+    width: 120px;
+    height: 150px;
+ }
+
+ .topProduct6 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+ .topProduct7 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+ .topProduct8 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+
+ .topProduct9 > img {
+    width: 120px;
+    height: 150px;
+ }
+
+
+
+
+.footer > .columns{
+    background-color: rgb(235, 223, 223);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10px;
+    
+}
+
+.footer > .columns > .column > ul > li {
+    list-style-type: none;
+}
+
+.footer > .columns > .column > ul > li > a{
+    margin: 10px;
+    text-decoration: none;
+
+}
